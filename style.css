@@ -1,0 +1,243 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 202, 202);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Generic */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.margintop10 {
+    margin-top: 10px;
+}
+
+.margintop20 {
+    margin-top: 20px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.border {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.marginleft20 {
+    margin-left: 20px;
+}
+
+.height75 {
+    height: 75%;
+}
+/*  */
+
+#navbar1 {
+    background-color: white;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+#navbar2 {
+    background: black;
+    height: 65px;
+    color: white;
+    padding: 25px 0px 0px 250px;
+}
+
+#dsnn {
+    margin-right: 50px;
+	width: 150px;
+	height: 60px;
+	transform: skew(-20deg);
+	background: red;
+    text-align: center;
+}
+
+#navsports {
+
+}
+
+#icons {
+    margin: 0px 0px 20px 200px;
+
+}
+
+#livescores {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#leftcont {
+    margin: 20px 0px 0px 250px;
+}
+
+#leftcont1 {
+    height: 250px;
+    width: 300px;
+}
+
+#leftcont2 {
+    height: 100px;
+    width: 300px;
+}
+
+#btn1 {
+    border: 2px solid black;
+    background-color: blue;
+    color: ghostwhite;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-align: center;
+    margin: 25px 50px 0px 0px;
+}
+
+#btn2 {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-align: center;
+    margin-top: 25px;
+}
+
+#leftcont3 {
+    height: 100px;
+    width: 300px;
+}
+
+#never {
+    margin-bottom: 25px;
+}
+
+#btn3 {
+    border: 2px solid black;
+    background-color: gold;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-align: center;
+    margin-left: 25px;
+    
+}
+
+#cont {
+    height: 500px;
+    width: 600px;
+    margin: 20px 200px 0px 20px;
+}
+
+#topline {
+    font-size: 125%;
+}
+
+#live {
+    color: red;
+    margin-left: 25px;
+    margin-right: 75px;
+}
+
+#vs {
+    margin-top: 100px;
+}
+
+.teamimg {
+    height: 35%;
+    width: 35%;
+    margin-left: 50px;
+}
+
+#sanjose {
+    margin-left: 75px;
+}
+
+#ninjas {
+    color: turquoise;
+    font-size: 300%;
+    margin-left: 50px;
+}
+
+#ninjascore {
+    margin-left: 75px;
+    color: gray;
+}
+
+#score319 {
+    font-size: 400%;
+    margin-left: 60px;
+}
+
+#column2 {
+    margin-left: 200px;
+}
+
+#ns {
+    margin-left: px;
+}
+
+#pirates {
+    color: rgb(196, 7, 7);
+    font-size: 300%;
+}
+
+#piratescore {
+    margin-left: 25px;
+    color: gray;
+}
+
+#score159 {
+    font-size: 400%;
+}

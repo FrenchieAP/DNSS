@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojosports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav Bar #1 -->
+    <div id="navbar1"  class="flex column">
+        <div id="livescores" class="margintop10">
+            Live Scores
+        </div>
+        <div id="score1" class="white flex column">
+        <span class="white">SJC Ninjas - 314</span>
+        <span class="white">NS Pirates - 159</span>
+        </div>
+        <div id="score2" class="white flex column">
+            <span class="white">CHI Samurai - 0</span>
+            <span class="white">TUL Wizards - 0</span>
+        </div>
+        <div id="score3" class="white flex column">
+            <span class="white">BOS Hackers - 13</span>
+            <span class="white">TYO Youkai - 37</span>
+        </div>
+        <div id="score4" class="white flex column">
+            <span class="white">BOI Knights - 5</span>
+            <span class="white">SEA Sea Lions - 11</span>
+        </div>
+    </div>
+
+    <!-- Nav Bar #2 -->
+    <div id="navbar2" class="black flex">
+        <h1 id="dsnn" class="black">DSNN</h1>
+        <div id="navsports" class=" black flex space-between">
+            <h2 class="black marginleft20">Football </h2>
+            <h2 class="black marginleft20">Basketball </h2>
+            <h2 class="black marginleft20">Soccer </h2>
+            <h2 class="black marginleft20">MMA </h2>
+            <h2 class="black marginleft20">Boxing </h2>
+        </div>
+        <div id="icons" class="black flex">
+            <img src="search-light.png" alt="search" class="black height75">
+            <img src="hamburger-light.png" alt="hamburger" class="black height75">
+            <img src="user-circle-light.png" alt="usercircle" class="black height75">
+        </div>
+
+    </div>
+
+    <!-- Main Content -->
+    <div id="main" class="flex">
+
+        <!-- Left Containers -->
+        <div id="leftcont" class="flex column">
+
+            <!-- Left Container #1 -->
+            <div id="leftcont1" class="white border flex column">
+                <h1 class="white">Top Stories</h1>
+                <hr class="margintop20">
+                <p class="white margintop20">Ninjas up big in 5th</p>
+                <p class="white margintop10">Best sports cities</p>
+                <p class="white margintop10">Choi joins Hall of Fame</p>
+                <p class="white margintop10">Tournament underway</p>
+                <p class="white margintop10">Samurai at Wizards...</p>
+
+            </div>
+            <!-- Left Container #2 -->
+            <div id="leftcont2" class="white border margintop20">
+                <h2 class="white">Customize your DSNN</h2>
+                <div id="buttons" class="flex"></div>
+                    <button id="btn1">Sign In</button> <button id="btn2">Sign Up</button>
+            </div>
+            <!-- Left Container #3 -->
+            <div id="leftcont33">  
+                <div id="leftcont3" class="white border margintop20">
+                    <h2 id="never" class="white">Never miss a play</h2>
+                    <button id="btn3" class="white" onclick="remove()">Subscribe</button>
+                </div>
+            </div> 
+        </div>
+        <!-- Big Container  -->
+        <div id="cont" class="white border">
+            <div id="topline" class="white flex">
+            <h1 id="live" class="white">Live</h1><h1 class="white"> Ninjas Leading Pirates</h1>
+            </div>
+            <div id="line2" class="white flex margintop10">
+                <img src="sjc-ninjas.png" alt="ninjas" class="white teamimg">
+                <h1 id="vs" class="white">vs</h1>
+                <img src="ns-pirates.png" alt="pirates" class="white teamimg">
+            </div>
+            <div id="line3" class="white flex">
+                <div id="column1" class="white flex column">
+                    <h3 id="sanjose" class="white">San Jose</h3>
+                    <h1 id="ninjas" class="white">Ninjas</h1>
+                    <h4 id="ninjascore" class="white">10W - 3L</h4>
+                    <h1 id="score319" class="white" onclick="increment()">319</h1>
+                </div>
+                <div id="column2" class="white flex column">
+                    <h3 id="ns" class="white">Nova Scotia</h3>
+                    <h1 id="pirates" class="white">Pirates</h1>
+                    <h4 id="piratescore" class="white">12W - 2L</h4>
+                    <h1 id="score159" class="white" onclick="increment1()">159</h1>
+                </div>
+            </div>
+            <hr>
+            <p class="white">A conservative match between the two top-performing sides in the Central League division with a number 1 seed at stake... <a class="white" href="www.google.com">get live updates</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
